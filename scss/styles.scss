@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'navigation';
+@import 'about';
+@import 'projects';
+@import 'contact';
+
+#override {
+    background-color: $grey-bg;
+    font-family: 'Raleway', sans-serif;
+
+    p{
+        color:white;
+        font-size:1.3rem;
+    }
+
+    h1{
+        color: $light-blue;
+    }
+    .row{
+        margin:0;
+        padding:0;
+    }
+    .container-fluid{
+        padding:0px;
+    }
+
+}

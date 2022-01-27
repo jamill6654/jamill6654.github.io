@@ -1,0 +1,42 @@
+#override {
+
+
+.navbar{
+    background-color: $grey-bg-darker;
+    height:10vh;
+}
+
+.navbar-brand {
+    color: $light-blue;
+    font-size: 1.8rem;
+    font-weight:500;
+    @media (min-width: 420px) {
+            font-size: 3rem;
+    }
+}
+
+.nav-link {
+    color: $light-pink;
+    font-weight: 500;
+}
+#navbarNav{
+    margin-right:10%;
+}
+.navbar-nav{
+    margin-right:10rem;
+    font-size:1.3rem;
+    background-color: $grey-bg-darker;
+}
+
+.navbar-toggler-icon{
+    background-color: $grey-bg-darker;
+}
+
+@media (min-width: 420px) {
+    .navbar-brand{
+        font-size: 2rem;
+        padding-top: 0;
+    }
+}
+
+}

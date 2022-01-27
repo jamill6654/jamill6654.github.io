@@ -1,0 +1,26 @@
+#override {
+
+    .projects-header{
+        font-size:55px;
+        margin: 20px auto;
+
+    }
+
+    .card-img-top{
+        display: block;
+    }
+    .card-body{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .card-btn{
+        display:block;
+        margin:auto auto 1px auto;
+        width:150px;
+        background-color: $light-pink;
+        border:none;
+    }
+
+
+}

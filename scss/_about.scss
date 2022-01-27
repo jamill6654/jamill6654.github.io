@@ -1,0 +1,22 @@
+#override{
+
+.prof-pic-div, .prof-pic{
+    width:100vw;
+    margin:10px auto;
+    @media (min-width:768px){
+            width:50vw;
+    }
+}
+
+.bot-border, .bot-border-div{
+    margin:0;
+    margin-top: -20px;
+    padding:0px;
+    z-index: -1;
+    height:30vh;
+}
+
+.about{
+    padding:0px;
+}
+}

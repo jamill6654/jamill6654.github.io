@@ -1,0 +1,171 @@
+#override .navbar {
+  background-color: #181818;
+  height: 10vh;
+}
+
+#override .navbar-brand {
+  color: #4CC9F0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+@media (min-width: 420px) {
+  #override .navbar-brand {
+    font-size: 3rem;
+  }
+}
+
+#override .nav-link {
+  color: #f72585;
+  font-weight: 500;
+}
+
+#override #navbarNav {
+  margin-right: 10%;
+}
+
+#override .navbar-nav {
+  margin-right: 10rem;
+  font-size: 1.3rem;
+  background-color: #181818;
+}
+
+#override .navbar-toggler-icon {
+  background-color: #181818;
+}
+
+@media (min-width: 420px) {
+  #override .navbar-brand {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+}
+
+#override .prof-pic-div, #override .prof-pic {
+  width: 100vw;
+  margin: 10px auto;
+}
+
+@media (min-width: 768px) {
+  #override .prof-pic-div, #override .prof-pic {
+    width: 50vw;
+  }
+}
+
+#override .bot-border, #override .bot-border-div {
+  margin: 0;
+  margin-top: -20px;
+  padding: 0px;
+  z-index: -1;
+  height: 30vh;
+}
+
+#override .about {
+  padding: 0px;
+}
+
+#override .projects-header {
+  font-size: 55px;
+  margin: 20px auto;
+}
+
+#override .card-img-top {
+  display: block;
+}
+
+#override .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#override .card-btn {
+  display: block;
+  margin: auto auto 1px auto;
+  width: 150px;
+  background-color: #f72585;
+  border: none;
+}
+
+#override .contact-header {
+  margin: 30px auto;
+  font-size: 55px;
+}
+
+#override .contact-div {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+#override .form-btn {
+  margin: 20px auto;
+  width: 35vw;
+  color: #4CC9F0;
+  border-color: #4CC9F0;
+}
+
+#override input {
+  height: 3rem;
+  background-color: grey;
+}
+
+#override input::-webkit-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+#override input:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+#override input::-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+#override input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  #override .first-row-contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+#override .message {
+  height: 8rem;
+}
+
+#override {
+  background-color: #1d1d1d;
+  font-family: 'Raleway', sans-serif;
+}
+
+#override p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#override h1 {
+  color: #4CC9F0;
+}
+
+#override .row {
+  margin: 0;
+  padding: 0;
+}
+
+#override .container-fluid {
+  padding: 0px;
+}
+/*# sourceMappingURL=styles.css.map */
