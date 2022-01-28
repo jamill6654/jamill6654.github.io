@@ -65,8 +65,14 @@
 }
 
 #override .projects-header {
+  display: block;
   font-size: 55px;
-  margin: 10vh auto;
+  margin: 0 auto;
+}
+
+#override .grid-div {
+  width: 80vw;
+  margin: 0 auto;
 }
 
 #override .card-img-top {
@@ -92,8 +98,11 @@
 }
 
 #override .contact-header {
-  margin: 10vh auto;
   font-size: 55px;
+}
+
+#override .contact-header-div {
+  margin: 5vh auto;
 }
 
 #override .contact-div {
@@ -147,6 +156,12 @@
   opacity: 1;
 }
 
+#override .first-row-contact {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   #override .first-row-contact {
     -webkit-box-orient: horizontal;
@@ -154,6 +169,10 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+
+#override .first-row-items {
+  width: 50%;
 }
 
 #override .message {
@@ -175,20 +194,16 @@
   color: #4CC9F0;
 }
 
-#override .row {
-  margin: 0;
-  padding: 0;
-}
-
 #override .container-fluid {
   padding: 0px;
 }
 
-#override .shadow {
+#override .shadows-text {
   -webkit-animation-name: animation;
           animation-name: animation;
   -webkit-animation-duration: 3.5s;
           animation-duration: 3.5s;
+  border: none;
 }
 
 @-webkit-keyframes animation {
@@ -213,5 +228,16 @@
   100% {
     text-shadow: none;
   }
+}
+
+#override .header-div, #override .contact-header-div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5179e), to(#f72585));
+  background-image: linear-gradient(#b5179e, #f72585);
+  height: 16vh;
+}
+
+#override input {
+  padding: 0px;
+  margin: 0px;
 }
 /*# sourceMappingURL=styles.css.map */

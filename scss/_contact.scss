@@ -1,7 +1,9 @@
 #override{
     .contact-header{
-        margin:10vh auto;
         font-size: 55px;
+    }
+    .contact-header-div{
+        margin:5vh auto;
     }
     
     .contact-div{
@@ -32,9 +34,15 @@
         }
     }
     .first-row-contact{
+        padding:0px;
+        margin:0px;
+        width:100%;
         @media (min-width: 768px){
             flex-direction: row;
         }
+    }
+    .first-row-items{
+        width:50%;
     }
 
     .message{

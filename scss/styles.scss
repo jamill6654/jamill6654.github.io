@@ -17,21 +17,26 @@
     h1{
         color: $light-blue;
     }
-    .row{
-        margin:0;
-        padding:0;
-    }
+
     .container-fluid{
         padding:0px;
     }
-    .shadow{
+    .shadows-text{
         animation-name: animation;
         animation-duration: 3.5s;
+        border:none;
     }
     @keyframes animation {
         0%{text-shadow:none;}
         50%{text-shadow:0px 0px 20px white};
         100%{text-shadow:none;}
     }
-
+    .header-div, .contact-header-div{
+        background-image: linear-gradient($dark-pink,$light-pink);
+        height:16vh;
+    }
+    input{
+        padding:0px;
+        margin:0px;
+    }
 }
