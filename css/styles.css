@@ -218,8 +218,8 @@
 #override .shadows-text {
   -webkit-animation-name: animation;
           animation-name: animation;
-  -webkit-animation-duration: 3.5s;
-          animation-duration: 3.5s;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
   border: none;
 }
 

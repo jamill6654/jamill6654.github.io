@@ -9,7 +9,7 @@ const contactLink = document.querySelector(".contact-link");
 
 aboutLink.addEventListener('click', ()=> {
     about.classList.add("shadows-text");
-    setTimeout(aboutShadow, 3500);
+    setTimeout(aboutShadow, 2000);
 });
 
 function aboutShadow(){
@@ -18,7 +18,7 @@ function aboutShadow(){
 
 projectsLink.addEventListener('click', ()=> {
     projects.classList.add("shadows-text");
-    setTimeout(projectsShadow, 3500);
+    setTimeout(projectsShadow, 2000);
 });
 
 function projectsShadow(){
@@ -27,7 +27,7 @@ function projectsShadow(){
 
 contactLink.addEventListener('click', ()=> {
     contact.classList.add("shadows-text");
-    setTimeout(contactShadow, 3500);
+    setTimeout(contactShadow, 2000);
 });
 
 function contactShadow(){
