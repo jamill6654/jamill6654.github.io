@@ -66,7 +66,7 @@
 
 #override .projects-header {
   font-size: 55px;
-  margin: 20px auto;
+  margin: 10vh auto;
 }
 
 #override .card-img-top {
@@ -92,13 +92,27 @@
 }
 
 #override .contact-header {
-  margin: 30px auto;
+  margin: 10vh auto;
   font-size: 55px;
 }
 
 #override .contact-div {
-  width: 50vw;
-  margin: 0 auto;
+  width: 80vw;
+  margin: 5vh auto;
+}
+
+@media (min-width: 768px) {
+  #override .contact-div {
+    width: 65vw;
+    margin: 5vh auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  #override .contact-div {
+    width: 50vw;
+    margin: 5vh auto;
+  }
 }
 
 #override .form-btn {
@@ -149,6 +163,7 @@
 #override {
   background-color: #1d1d1d;
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
 #override p {
@@ -167,5 +182,36 @@
 
 #override .container-fluid {
   padding: 0px;
+}
+
+#override .shadow {
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0px 0px 20px white;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes animation {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0px 0px 20px white;
+  }
+  100% {
+    text-shadow: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

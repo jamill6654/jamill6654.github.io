@@ -7,6 +7,7 @@
 #override {
     background-color: $grey-bg;
     font-family: 'Raleway', sans-serif;
+    position:relative;
 
     p{
         color:white;
@@ -22,6 +23,15 @@
     }
     .container-fluid{
         padding:0px;
+    }
+    .shadow{
+        animation-name: animation;
+        animation-duration: 3.5s;
+    }
+    @keyframes animation {
+        0%{text-shadow:none;}
+        50%{text-shadow:0px 0px 20px white};
+        100%{text-shadow:none;}
     }
 
 }

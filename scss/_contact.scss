@@ -1,11 +1,21 @@
 #override{
     .contact-header{
-        margin:30px auto;
+        margin:10vh auto;
         font-size: 55px;
     }
+    
     .contact-div{
-        width:50vw;
-        margin: 0 auto;
+        width:80vw;
+        margin:5vh auto;
+    
+        @media(min-width:768px){
+            width:65vw;
+            margin:5vh auto;
+        }
+        @media(min-width:1024px){
+            width:50vw;
+            margin:5vh auto;
+        }
     }
     .form-btn {
         margin: 20px auto;
