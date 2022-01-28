@@ -17,4 +17,12 @@
 .about{
     padding:0px;
 }
+
+.about-p{
+    margin:5px;
+    width:100%;
+    @media (min-width:1024px){
+        margin:auto 5vw;
+    }
+}
 }

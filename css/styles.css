@@ -65,6 +65,17 @@
   padding: 0px;
 }
 
+#override .about-p {
+  margin: 5px;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #override .about-p {
+    margin: auto 5vw;
+  }
+}
+
 #override .projects-header {
   display: block;
   font-size: 55px;
@@ -72,8 +83,30 @@
 }
 
 #override .grid-div {
-  width: 80vw;
+  width: 100vw;
   margin: 0 auto;
+  padding: 0px;
+}
+
+@media (min-width: 420px) {
+  #override .grid-div {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  #override .grid-div {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768) {
+  #override .proj-col {
+    margin: 10px 0px;
+    padding: 0px;
+  }
 }
 
 #override .card-img-top {
@@ -88,6 +121,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+#override .card {
+  width: 100%;
+  margin: 0px;
 }
 
 #override .card-btn {
