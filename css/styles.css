@@ -11,7 +11,8 @@
 
 @media (min-width: 420px) {
   #override .navbar-brand {
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-top: 0;
   }
 }
 
@@ -34,11 +35,13 @@
   background-color: #181818;
 }
 
-@media (min-width: 420px) {
-  #override .navbar-brand {
-    font-size: 2rem;
-    padding-top: 0;
-  }
+#override .git-icon {
+  margin-left: 10px;
+}
+
+#override #projects {
+  position: relative;
+  top: -50px;
 }
 
 #override .prof-pic-div, #override .prof-pic {
@@ -54,9 +57,7 @@
 
 #override .bot-border, #override .bot-border-div {
   margin: 0;
-  margin-top: -20px;
   padding: 0px;
-  z-index: -1;
   height: 30vh;
 }
 
@@ -133,7 +134,8 @@
 
 #override input {
   height: 3rem;
-  background-color: grey;
+  background-color: lightgray;
+  border: solid 0.1px grey;
 }
 
 #override input::-webkit-input-placeholder {
@@ -157,8 +159,12 @@
 }
 
 #override .first-row-contact {
-  padding: 0px;
-  margin: 0px;
+  --bs-gutter-x: 1.5rem;
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+#override .first-row-contact input {
   width: 100%;
 }
 
@@ -171,18 +177,29 @@
   }
 }
 
-#override .first-row-items {
-  width: 50%;
-}
-
 #override .message {
   height: 8rem;
+}
+
+#override .first-row-items::-webkit-input-placeholder {
+  padding-left: 12px;
+}
+
+#override .first-row-items:-ms-input-placeholder {
+  padding-left: 12px;
+}
+
+#override .first-row-items::-ms-input-placeholder {
+  padding-left: 12px;
+}
+
+#override .first-row-items::placeholder {
+  padding-left: 12px;
 }
 
 #override {
   background-color: #1d1d1d;
   font-family: 'Raleway', sans-serif;
-  position: relative;
 }
 
 #override p {
@@ -234,10 +251,5 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b5179e), to(#f72585));
   background-image: linear-gradient(#b5179e, #f72585);
   height: 16vh;
-}
-
-#override input {
-  padding: 0px;
-  margin: 0px;
 }
 /*# sourceMappingURL=styles.css.map */

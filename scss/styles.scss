@@ -7,7 +7,6 @@
 #override {
     background-color: $grey-bg;
     font-family: 'Raleway', sans-serif;
-    position:relative;
 
     p{
         color:white;
@@ -34,9 +33,5 @@
     .header-div, .contact-header-div{
         background-image: linear-gradient($dark-pink,$light-pink);
         height:16vh;
-    }
-    input{
-        padding:0px;
-        margin:0px;
     }
 }
