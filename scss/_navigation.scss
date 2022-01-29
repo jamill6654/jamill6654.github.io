@@ -1,6 +1,8 @@
 #override {
 
-
+#navbar{
+    position:fixed;
+}
 .navbar{
     background-color: $grey-bg-darker;
     height:7vh;

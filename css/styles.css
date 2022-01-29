@@ -1,3 +1,7 @@
+#override #navbar {
+  position: fixed;
+}
+
 #override .navbar {
   background-color: #181818;
   height: 7vh;
@@ -45,34 +49,53 @@
 }
 
 #override .prof-pic-div, #override .prof-pic {
+  height: 40vh;
   width: 100vw;
   margin: 10px auto;
+  margin-top: 3vh;
 }
 
 @media (min-width: 768px) {
   #override .prof-pic-div, #override .prof-pic {
-    width: 50vw;
+    width: 55vw;
+    height: 70vh;
   }
 }
 
-#override .bot-border, #override .bot-border-div {
-  margin: 0;
-  padding: 0px;
-  height: 30vh;
-}
-
-#override .about {
-  padding: 0px;
-}
-
 #override .about-p {
-  margin: 5px;
-  width: 100%;
+  margin: auto;
 }
 
 @media (min-width: 1024px) {
   #override .about-p {
-    margin: auto 5vw;
+    margin: auto 3vw;
+  }
+}
+
+#override .bot-border, #override .bot-border-div {
+  display: block;
+  margin-bottom: 0px;
+  margin-top: auto;
+  padding: 0px;
+  height: 30vh;
+  position: absolute;
+  bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  #override .bot-border, #override .bot-border-div {
+    display: none;
+  }
+}
+
+#override .about-wrap {
+  height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  #override .about-wrap {
+    height: auto;
   }
 }
 
@@ -233,6 +256,10 @@
 
 #override .first-row-items::placeholder {
   padding-left: 12px;
+}
+
+#override .contact-text {
+  font-size: 28px;
 }
 
 #override {

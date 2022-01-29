@@ -1,28 +1,42 @@
 #override{
 
 .prof-pic-div, .prof-pic{
+    height:40vh;
     width:100vw;
     margin:10px auto;
+    margin-top: 3vh;
     @media (min-width:768px){
-            width:50vw;
+            width:55vw;
+            height:70vh;
+    }
+}
+
+.about-p{
+    margin:auto;
+    @media(min-width: 1024px){
+        margin:auto 3vw;
+
     }
 }
 
 .bot-border, .bot-border-div{
-    margin:0;
+    display: block;
+    margin-bottom:0px;
+    margin-top:auto;
     padding:0px;
     height:30vh;
+    position:absolute;
+    bottom:0px;
+    @media(max-width: 768px){
+        display:none;
+    }
 }
 
-.about{
-    padding:0px;
-}
-
-.about-p{
-    margin:5px;
-    width:100%;
-    @media (min-width:1024px){
-        margin:auto 5vw;
+.about-wrap{
+    height:100vh;
+    position:relative;
+    @media (max-width: 768px){
+        height:auto;
     }
 }
 }
